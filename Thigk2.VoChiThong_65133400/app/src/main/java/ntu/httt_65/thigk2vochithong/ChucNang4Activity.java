@@ -11,7 +11,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class ChucNang4Activity extends AppCompatActivity {
 
-    // Khai báo Button
     Button btnBack;
 
     @Override
