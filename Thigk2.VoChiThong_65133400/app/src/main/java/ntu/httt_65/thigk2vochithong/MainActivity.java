@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnCN1.setOnClickListener(v -> startActivity(new Intent(this, ChucNang1Activity.class)));
         btnCN2.setOnClickListener(v -> startActivity(new Intent(this, ChucNang2Activity.class)));
-
+        btnCN3.setOnClickListener(v -> startActivity(new Intent(this, ChucNang3Activity.class)));
     }
 
 }
