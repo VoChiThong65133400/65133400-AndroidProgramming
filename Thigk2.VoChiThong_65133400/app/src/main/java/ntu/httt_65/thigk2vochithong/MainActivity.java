@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnCN3 = findViewById(R.id.btnCN3);
         btnCN4 = findViewById(R.id.btnCN4);
 
-        
+        btnCN1.setOnClickListener(v -> startActivity(new Intent(this, ChucNang1Activity.class)));
+
     }
 
 }

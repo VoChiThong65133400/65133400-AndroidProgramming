@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/CN1"
     android:layout_width="match_parent"
@@ -9,8 +10,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="TÍNH CHU VI - DIỆN TÍCH"
-        android:textSize="20sp"
+        android:text="CHỨC NĂNG 1"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
     <EditText
@@ -29,13 +30,30 @@
         android:hint="Nhập chiều rộng"
         android:inputType="numberDecimal" />
 
-    <Button
-        android:id="@+id/btnTinh"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:text="Tính Chu Vi" />
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnChuVi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tính Chu Vi" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/btnDienTich"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tính Diện Tích" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/txtKetQua"
@@ -44,4 +62,13 @@
         android:layout_marginTop="20dp"
         android:text="Kết quả:"
         android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnQuayLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Quay lại" />
+
 </LinearLayout>
