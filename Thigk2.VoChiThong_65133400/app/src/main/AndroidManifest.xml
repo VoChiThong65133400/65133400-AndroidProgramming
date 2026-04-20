@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Thigk2VoChiThong">
         <activity
+            android:name=".ChucNang1Activity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
